@@ -1,0 +1,117 @@
+/*
+Plugin Name: Vina Content Slider Widget
+Plugin URI: http://VinaThemes.biz
+Description: Showing off the best content of your website in a nice intuitive way will surely catch more eyeballs.
+Version: 1.0
+Author: VinaThemes
+Author URI: http://VinaThemes.biz
+Author email: mr_hiennc@yahoo.com
+Demo URI: http://VinaDemo.biz
+Forum URI: http://VinaForum.biz
+License: GPLv3+
+*/
+
+.vina-cslider-container { 
+	position:relative; 
+	border:5px solid #ccc; 
+	overflow:hidden;
+	background:#fff;
+}
+.vina-cslider-container ul.ui-tabs-nav { 
+	position:absolute; 
+	top:0; 
+	list-style:none; 
+	padding:0; 
+	margin:0; 
+	overflow:auto;
+	overflow-x:hidden;
+}
+.vina-cslider-container ul.ui-tabs-nav li { 
+	padding:1px 0; 
+	padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+	margin: 0;
+}
+.vina-cslider-container ul.ui-tabs-nav li img { 
+	float:left;
+	margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+}
+.vina-cslider-container ul.ui-tabs-nav li span { 
+	font-size:12px; 
+	line-height:18px; 
+}
+.vina-cslider-container li.ui-tabs-nav-item a { 
+	display:block; 
+	text-decoration:none;
+	color:#333;  
+	background:#fff; 
+	line-height:20px; 
+	outline:none;
+}
+.vina-cslider-container li.ui-tabs-nav-item a:hover { 
+	background:#f2f2f2; 
+}
+.vina-cslider-container li.ui-tabs-selected, 
+.vina-cslider-container li.ui-tabs-active { 
+	background:url('../images/selected-item.gif') top left no-repeat;  
+}
+.vina-cslider-container ul.ui-tabs-nav li.ui-tabs-selected a, 
+.vina-cslider-container ul.ui-tabs-nav li.ui-tabs-active a { 
+	background:#ccc; 
+}
+.vina-cslider-container .ui-tabs-panel { 
+	background:#999; 
+	position:relative;
+}
+.vina-cslider-container .ui-tabs-panel .info{ 
+	position:absolute; 
+	bottom:0; 
+	left:0; 
+	height:70px; 
+	background: url('../images/transparent-bg.png'); 
+}
+.vina-cslider-container .ui-tabs-panel .info a.hideshow{
+	position:absolute; 
+	font-size:11px; 
+	font-family:Verdana; 
+	color:#f0f0f0; 
+	right:10px; 
+	top:-20px; 
+	line-height:20px; 
+	margin:0; 
+	outline:none; 
+	background:#333;
+}
+.vina-cslider-container .info h2{ 
+	font-size:1.2em; 
+	color:#fff; 
+	padding:5px; 
+	margin:0; 
+	font-weight:normal;
+	overflow:hidden; 
+}
+.vina-cslider-container .info p{ 
+	margin:0 5px; 
+	font-size:12px; 
+	line-height:15px; 
+	color:#f0f0f0;
+}
+.vina-cslider-container .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+.vina-cslider-container .info a:hover{ 
+	text-decoration:underline; 
+}
+.vina-cslider-container .ui-tabs-hide{ 
+	display:none; 
+}
+div#tcvn-copyright {
+	font-size: 12px;
+    height: 0;
+    overflow: hidden;
+}
